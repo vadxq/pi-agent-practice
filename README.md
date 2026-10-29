@@ -44,7 +44,7 @@ npm run lab:check
 ### 理解执行过程
 
 - [03 理解 Agent 运行、上下文与会话控制](docs/chapters/03-runtime-context-sessions.md)
-- 04 任务契约与最小评测
+- [04 任务契约与最小评测](docs/chapters/04-task-contract-eval.md)
 
 ### 定制研发工作流
 
