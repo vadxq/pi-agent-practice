@@ -48,7 +48,7 @@ npm run lab:check
 
 ### 定制研发工作流
 
-- 05 项目指令与可复用步骤
+- [05 项目指令与可复用步骤](docs/chapters/05-project-instructions.md)
 - 06 用工具扩展与事件组织研发流程
 - 07 MCP 与 Codemode
 - 08 将工作流封装为 Pi Package

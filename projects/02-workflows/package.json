@@ -1,0 +1,45 @@
+{
+  "name": "pi-course-02-workflows",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit --noUnusedLocals --noUnusedParameters",
+    "build": "tsc --outDir .pi/build",
+    "pi": "pi",
+    "fixture:test": "tsx --test fixtures/sample-repo/tests/*.test.ts",
+    "fixture:check": "tsx fixtures/sample-repo/check-task.ts",
+    "lab:init": "tsx scripts/init_lab.ts",
+    "lab:check": "tsx scripts/check_lab.ts",
+    "test": "npm run fixture:test && npm run fixture:check",
+    "self-check": "tsx scripts/self_check.ts"
+  },
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "1.4.0",
+    "typebox": "1.3.27"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/shipping-contract.ts",
+      "./extensions/workflow-reminder.ts"
+    ],
+    "skills": [
+      "./skills"
+    ],
+    "prompts": [
+      "./prompts/*.md"
+    ]
+  },
+  "keywords": [
+    "pi-package"
+  ]
+}

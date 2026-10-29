@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "coursefs": {
+      "command": "npx",
+      "args": ["--yes", "@modelcontextprotocol/server-filesystem@2.0.0", "."],
+      "env": { "npm_config_cache": ".pi/npm-cache" },
+      "timeout": 30,
+      "description": "读取受控运费练习仓库的源码与目录，不暴露写入工具。",
+      "exposure": "hidden",
+      "toolExposure": {
+        "read_text_file": "codemode",
+        "list_directory": "codemode",
+        "list_allowed_directories": "codemode"
+      }
+    }
+  }
+}
