@@ -49,15 +49,15 @@ npm run lab:check
 ### 定制研发工作流
 
 - [05 项目指令与可复用步骤](docs/chapters/05-project-instructions.md)
-- 06 用工具扩展与事件组织研发流程
-- 07 MCP 与 Codemode
-- 08 将工作流封装为 Pi Package
+- [06 用工具扩展与事件组织研发流程](docs/chapters/06-extensions-and-events.md)
+- [07 MCP 与 Codemode](docs/chapters/07-mcp-and-codemode.md)
+- [08 将工作流封装为 Pi Package](docs/chapters/08-package-workflow.md)
 
 ### 构建自己的 harness
 
-- 09 选择集成方式，建立可控的 SDK 闭环
-- 10 任务生命周期、预算与中断恢复
-- 11 子 Agent 协作与可审阅的结果包
+- [09 选择集成方式，建立可控的 SDK 闭环](docs/chapters/09-sdk-integration.md)
+- [10 任务生命周期、预算与中断恢复](docs/chapters/10-task-lifecycle-recovery.md)
+- [11 子 Agent 协作与可审阅的结果包](docs/chapters/11-subagents-and-delivery.md)
 
 ### 把 harness 做成服务
 
