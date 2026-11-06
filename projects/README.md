@@ -7,6 +7,8 @@
 | [01-shipping-lab](01-shipping-lab/README.md) | 01、02、03、04 | 运费边界练习 |
 | [02-workflows](02-workflows/README.md) | 05、06、07、08 | Pi 工作流包 |
 | [03-sdk-harness](03-sdk-harness/README.md) | 09、10、11 | SDK 与父子 Agent |
+| [04-service-lab](04-service-lab/README.md) | 12、13、14、16 | 服务基础实验与部署 |
+| [05-evaluation](05-evaluation/README.md) | 15 | 任务评测与证据 |
 
 进入某个项目后执行 `npm ci --ignore-scripts --cache .pi/npm-cache`、`npm run typecheck`、`npm run lint`、`npm run build`、`npm test`。具体实验命令及验证范围见各项目 README。
 

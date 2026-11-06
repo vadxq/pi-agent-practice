@@ -61,7 +61,7 @@ npm run lab:check
 
 ### 把 harness 做成服务
 
-- 12 将 harness 做成受控服务
+- [12 将 harness 做成受控服务](docs/chapters/12-controlled-services.md)
 - 13 工作区与执行隔离
 - 14 并发与故障恢复
 - 15 评测与运行证据

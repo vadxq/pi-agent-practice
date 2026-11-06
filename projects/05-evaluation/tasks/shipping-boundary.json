@@ -1,0 +1,29 @@
+{
+  "id": "shipping-boundary-v1",
+  "goal": "修复国内订单金额等于5000分时的免基础运费边界，保持国际订单和加急规则不变。",
+  "fixture": "fixtures/sample-repo/starter/shipping.ts",
+  "allowedChanges": [
+    "src/shipping.ts"
+  ],
+  "acceptance": "npm run evaluate -- --workspace <workspace>",
+  "expectedInitialFailures": [
+    "domestic-boundary",
+    "expedited-boundary"
+  ],
+  "expectedFinalPassedCases": 12,
+  "forbiddenChanges": [
+    "AGENTS.md",
+    "TASK.md",
+    ".pi-course-lab.json",
+    "acceptance checks"
+  ],
+  "requiredEvidence": [
+    "baseline.diff",
+    "final.diff",
+    "validation",
+    "task status",
+    "usage and duration"
+  ],
+  "remoteActions": "none",
+  "successCondition": "全部行为检查通过，修改范围合规，报告与运行证据一致。"
+}

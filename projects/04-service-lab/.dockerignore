@@ -1,0 +1,5 @@
+node_modules/
+.pi/
+.git/
+.env
+__pycache__/

@@ -1,0 +1,4 @@
+FROM node:24-bookworm-slim
+USER node
+WORKDIR /workspace
+ENTRYPOINT ["node"]
