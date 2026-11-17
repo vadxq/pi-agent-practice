@@ -1,0 +1,7 @@
+{
+  "nodes": [
+    { "nodeId": "code", "dependsOn": [], "role": "writer", "allowedPaths": ["src/shipping.ts"], "required": true },
+    { "nodeId": "docs", "dependsOn": [], "role": "writer", "allowedPaths": ["README.md"], "required": true },
+    { "nodeId": "integrate", "dependsOn": ["code", "docs"], "role": "integrator", "allowedPaths": ["src/shipping.ts", "README.md"], "required": true }
+  ]
+}

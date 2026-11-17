@@ -1,0 +1,20 @@
+{
+  "name": "pi-course-10-rpc-client",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "pi": "pi",
+    "start": "python3 src/rpc_client.py",
+    "test": "python3 scripts/self_check.py",
+    "typecheck": "python3 scripts/check_python.py",
+    "lint": "python3 scripts/check_python.py",
+    "build": "python3 scripts/check_python.py"
+  },
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "1.4.0"
+  }
+}

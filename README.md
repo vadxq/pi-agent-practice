@@ -62,19 +62,19 @@ npm run lab:check
 ### 把 harness 做成服务
 
 - [12 将 harness 做成受控服务](docs/chapters/12-controlled-services.md)
-- 13 工作区与执行隔离
-- 14 并发与故障恢复
-- 15 评测与运行证据
-- 16 部署验收与版本升级
+- [13 工作区与执行隔离](docs/chapters/13-isolation.md)
+- [14 并发与故障恢复](docs/chapters/14-concurrency-recovery.md)
+- [15 评测与运行证据](docs/chapters/15-evaluation.md)
+- [16 部署验收与版本升级](docs/chapters/16-deployment-upgrades.md)
 
 ### 进阶专题
 
-- 17 虚拟模型与任务路由
-- 18 进阶多 Agent 编排
-- 19 使用 agent-core 掌控循环
-- 20 Pi Durable 与长任务
-- 21 跨语言 RPC 集成
-- 22 源码导航与复杂迁移案例
+- [17 虚拟模型与任务路由](docs/chapters/17-model-routing.md)
+- [18 进阶多 Agent 编排](docs/chapters/18-advanced-multi-agent.md)
+- [19 使用 agent-core 掌控循环](docs/chapters/19-agent-core.md)
+- [20 Pi Durable 与长任务](docs/chapters/20-durable.md)
+- [21 跨语言 RPC 集成](docs/chapters/21-rpc.md)
+- [22 源码导航与复杂迁移案例](docs/chapters/22-source-migration.md)
 
 ## 本地检查
 

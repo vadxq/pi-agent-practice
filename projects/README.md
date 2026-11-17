@@ -9,6 +9,11 @@
 | [03-sdk-harness](03-sdk-harness/README.md) | 09、10、11 | SDK 与父子 Agent |
 | [04-service-lab](04-service-lab/README.md) | 12、13、14、16 | 服务基础实验与部署 |
 | [05-evaluation](05-evaluation/README.md) | 15 | 任务评测与证据 |
+| [06-model-router](06-model-router/README.md) | 17 | 虚拟模型路由 |
+| [07-multi-agent](07-multi-agent/README.md) | 18 | 多 Agent 计划实验 |
+| [08-agent-core](08-agent-core/README.md) | 19、22 | Agent 循环与迁移 |
+| [09-durable](09-durable/README.md) | 20 | Durable 持久任务 |
+| [10-rpc-client](10-rpc-client/README.md) | 21 | Python RPC 客户端 |
 
 进入某个项目后执行 `npm ci --ignore-scripts --cache .pi/npm-cache`、`npm run typecheck`、`npm run lint`、`npm run build`、`npm test`。具体实验命令及验证范围见各项目 README。
 

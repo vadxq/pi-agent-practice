@@ -1,0 +1,29 @@
+{
+  "name": "pi-course-07-multi-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit --noUnusedLocals --noUnusedParameters",
+    "build": "tsc --outDir .pi/build",
+    "pi": "pi",
+    "fixture:test": "tsx --test fixtures/sample-repo/tests/*.test.ts",
+    "fixture:check": "tsx fixtures/sample-repo/check-task.ts",
+    "lab:init": "tsx scripts/init_lab.ts",
+    "lab:check": "tsx scripts/check_lab.ts",
+    "test": "tsx --test src/*.test.ts && npm run fixture:check",
+    "plan:check": "tsx src/main.ts --plan plans/shipping.json"
+  },
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  }
+}
